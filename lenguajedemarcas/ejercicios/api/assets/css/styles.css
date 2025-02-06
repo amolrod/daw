@@ -1,0 +1,197 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #003c58;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Contenedor principal */
+  .contenedor {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #003c58;
+  }
+  
+  .descripcion {
+    font-size: 1.2rem;
+    margin: 0 auto 2rem auto; /* Centra horizontalmente */
+    color: #555;
+    text-align: center; /* Centra el texto */
+    width: 65%; /* Define un ancho para que el margen funcione */
+    display: block; /* Asegura que sea un bloque para aplicar margin auto */
+  }
+
+  
+  /* Contenedor para clima y mapa */
+  .datos-mapa {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos para clima */
+  .datos {
+    flex: 1;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .datos h3 {
+    font-size: 1.8rem;
+    color: #003c58;
+    margin-bottom: 1rem;
+    margin-top: 3%;
+  }
+  
+  .datos p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .negrita {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el mapa */
+  .mapa {
+    flex: 1;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mapa h3 {
+    font-size: 1.8rem;
+    color: #003c58;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contenedor del iframe para asegurar que respete el padding y border-radius */
+  .iframe-contenedor {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .mapa iframe {
+    border: none;
+    width: 100%;
+    height: 300px; /* Ajusta la altura según necesites */
+    display: block;
+  }
+  
+  /* Enlaces */
+  .enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .btn:hover{
+    background-color: #70c5a2!important;
+  }
+  
+  .grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 1rem; /* Espacio entre imágenes */
+    justify-content: center;
+  }
+  
+  .grid-imagenes img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 250px; /* Misma altura para todas */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+  }
+
+  /* Estilos para las reseñas */
+.grid-reseñas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  gap: 2rem; /* Espacio entre reseñas */
+  justify-items: center; /* Centra las reseñas en cada celda */
+}
+
+.reseña {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Asegura que la reseña ocupe todo el espacio disponible */
+  text-align: center; /* Centra el contenido dentro de cada reseña */
+}
+
+.estrellas {
+  font-size: 1.5rem;
+  color: #f4a261; /* Color para las estrellas */
+  margin-bottom: 1rem;
+}
+
+.reseña h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contenedor {
+      width: 90%;
+    }
+  
+    .titulo {
+      font-size: 1.7rem;
+    }
+  
+    .descripcion {
+      font-size: 1rem;
+    }
+  
+    .datos h3,
+    .mapa h3 {
+      font-size: 1.6rem;
+    }
+  
+    /* En pantallas pequeñas, la disposición se vuelve vertical */
+    .datos-mapa {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mapa iframe {
+      height: 250px;
+    }
+  }
+  
