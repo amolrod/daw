@@ -1,6 +1,6 @@
 {
   "2023": {
-    "Q1": [
+    "Primer Trimestre": [
       {
         "cliente": {
           "nombre": "Eulalia",
@@ -166,102 +166,38 @@
           ]
         }
       }
-    ],
-    "Q2": [
+    ]
+  },
+  "2024": {
+    "Cuarto Trimestre": [
       {
         "cliente": {
-          "nombre": "Eufrasia",
-          "apellidos": "López de la Torre",
-          "telefono": "967890123",
+          "nombre": "Fernando",
+          "apellidos": "García Martínez",
+          "telefono": "948123456",
           "direccion": {
-            "calle": "Calle del Viento 67",
-            "ciudad": "Barcelona",
-            "codigo_postal": "08001",
-            "provincia": "Barcelona"
+            "calle": "Calle de los Jardines 23",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
           },
-          "email": "eufrasia.lopez@example.com"
+          "email": "fernando.garcia@example.com"
         },
         "pedido": {
-          "numero_pedido": "006",
-          "fecha_compra": "2023-04-15",
-          "fecha_entrega": "2023-04-20",
-          "productos": [
-            {
-              "nombre": "Arena para gatos",
-              "referencia": "AG001",
-              "precio": 10.00,
-              "unidades": 5
-            },
-            {
-              "nombre": "Juguete para perros",
-              "referencia": "JP001",
-              "precio": 10.00,
-              "unidades": 3
-            }
-          ]
-        }
-      },
-      {
-        "cliente": {
-          "nombre": "Gumersindo",
-          "apellidos": "García de la Sierra",
-          "telefono": "978901234",
-          "direccion": {
-            "calle": "Calle de la Montaña 89",
-            "ciudad": "Bilbao",
-            "codigo_postal": "48001",
-            "provincia": "Vizcaya"
-          },
-          "email": "gumersindo.garcia@example.com"
-        },
-        "pedido": {
-          "numero_pedido": "007",
-          "fecha_compra": "2023-05-10",
-          "fecha_entrega": "2023-05-15",
-          "productos": [
-            {
-              "nombre": "Cama para perros",
-              "referencia": "CB001",
-              "precio": 50.00,
-              "unidades": 1
-            },
-            {
-              "nombre": "Rascador para gatos",
-              "referencia": "RC001",
-              "precio": 30.00,
-              "unidades": 2
-            }
-          ]
-        }
-      },
-      {
-        "cliente": {
-          "nombre": "Hipólito",
-          "apellidos": "Martín del Campo",
-          "telefono": "989012345",
-          "direccion": {
-            "calle": "Calle del Bosque 23",
-            "ciudad": "Valladolid",
-            "codigo_postal": "47001",
-            "provincia": "Valladolid"
-          },
-          "email": "hipolito.martin@example.com"
-        },
-        "pedido": {
-          "numero_pedido": "008",
-          "fecha_compra": "2023-06-01",
-          "fecha_entrega": "2023-06-06",
+          "numero_pedido": "036",
+          "fecha_compra": "2024-10-15",
+          "fecha_entrega": "2024-10-20",
           "productos": [
             {
               "nombre": "Comida para gatos",
-              "referencia": "CG001",
-              "precio": 15.00,
+              "referencia": "CG002",
+              "precio": 20.00,
               "unidades": 4
             },
             {
-              "nombre": "Correa para perros",
-              "referencia": "CR001",
-              "precio": 15.30,
+              "nombre": "Comida para perros",
+              "referencia": "CG002",
+              "precio": 24.00,
               "unidades": 2
             }
           ]
@@ -269,66 +205,132 @@
       },
       {
         "cliente": {
-          "nombre": "Isidora",
-          "apellidos": "Pérez de la Fuente",
-          "telefono": "990123456",
+          "nombre": "Margarita",
+          "apellidos": "López Fernández",
+          "telefono": "942345678",
           "direccion": {
-            "calle": "Calle del Mar 45",
-            "ciudad": "Málaga",
-            "codigo_postal": "29001",
-            "provincia": "Málaga"
+            "calle": "Avenida de la Paz 6",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
           },
-          "email": "isidora.perez@example.com"
+          "email": "margarita.lopez@example.com"
         },
         "pedido": {
-          "numero_pedido": "009",
-          "fecha_compra": "2023-06-20",
-          "fecha_entrega": "2023-06-25",
+          "numero_pedido": "037",
+          "fecha_compra": "2024-11-02",
+          "fecha_entrega": "2024-11-07",
           "productos": [
             {
-              "nombre": "Transportín para gatos",
-              "referencia": "TG001",
-              "precio": 40.00,
+              "nombre": "Rascador para gatos",
+              "referencia": "RC002",
+              "precio": 25.00,
               "unidades": 1
             },
             {
               "nombre": "Juguete para gatos",
-              "referencia": "JG001",
+              "referencia": "RC002",
               "precio": 12.00,
-              "unidades": 5
+              "unidades": 2
             }
           ]
         }
       },
       {
         "cliente": {
-          "nombre": "Jacinto",
-          "apellidos": "Fernández de la Vega",
-          "telefono": "901234567",
+          "nombre": "Bernardo",
+          "apellidos": "Morales Ortega",
+          "telefono": "957678901",
           "direccion": {
-            "calle": "Calle del Río 78",
-            "ciudad": "Murcia",
-            "codigo_postal": "30001",
-            "provincia": "Murcia"
+            "calle": "Calle del Ángel 45",
+            "ciudad": "Córdoba",
+            "codigo_postal": "14001",
+            "provincia": "Córdoba"
           },
-          "email": "jacinto.fernandez@example.com"
+          "email": "bernardo.morales@example.com"
         },
         "pedido": {
-          "numero_pedido": "010",
-          "fecha_compra": "2023-06-28",
-          "fecha_entrega": "2023-07-03",
+          "numero_pedido": "038",
+          "fecha_compra": "2024-09-15",
+          "fecha_entrega": "2024-09-20",
           "productos": [
             {
-              "nombre": "Cama para perros",
-              "referencia": "CB001",
-              "precio": 50.00,
+              "nombre": "Comida para perros",
+              "referencia": "CP002",
+              "precio": 30.00,
+              "unidades": 3
+            },
+            {
+              "nombre": "Juguete para perros",
+              "referencia": "CP002",
+              "precio": 12.00,
+              "unidades": 4
+            }
+          ]
+        }
+      },
+      {
+        "cliente": {
+          "nombre": "Leonor",
+          "apellidos": "Gómez Pérez",
+          "telefono": "938567890",
+          "direccion": {
+            "calle": "Calle de los Olivos 34",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "email": "leonor.gomez@example.com"
+        },
+        "pedido": {
+          "numero_pedido": "039",
+          "fecha_compra": "2024-10-05",
+          "fecha_entrega": "2024-10-25",
+          "productos": [
+            {
+              "nombre": "Juguete para perros",
+              "referencia": "JP002",
+              "precio": 12.00,
+              "unidades":3
+            },
+            {
+              "nombre": "Comida para pez",
+              "referencia": "JP002",
+              "precio": 12.00,
+              "unidades": 4
+            }
+          ]
+        }
+      },
+      {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "Sánchez Ruiz",
+          "telefono": "926789012",
+          "direccion": {
+            "calle": "Calle del Mar 78",
+            "ciudad": "Toledo",
+            "codigo_postal": "45001",
+            "provincia": "Toledo"
+          },
+          "email": "carlos.sanchez@example.com"
+        },
+        "pedido": {
+          "numero_pedido": "040",
+          "fecha_compra": "2024-12-3",
+          "fecha_entrega": "2024-12-15",
+          "productos": [
+            {
+              "nombre": "Comida para gatos",
+              "referencia": "CG003",
+              "precio": 18.00,
               "unidades": 2
             },
             {
-              "nombre": "Rascador para gatos",
-              "referencia": "RC001",
-              "precio": 12.00,
-              "unidades": 3
+              "nombre": "Comida para pajaros",
+              "referencia": "CG233",
+              "precio": 22.00,
+              "unidades": 4
             }
           ]
         }
