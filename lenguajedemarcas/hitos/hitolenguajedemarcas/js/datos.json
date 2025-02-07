@@ -12,7 +12,7 @@
             "codigo_postal": "45001",
             "provincia": "Toledo"
           },
-          "email": "eulalia.fernandez@example.com"
+          "email": "eulalia.fernandez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "001",
@@ -45,7 +45,7 @@
             "codigo_postal": "37001",
             "provincia": "Salamanca"
           },
-          "email": "anastasio.gomez@example.com"
+          "email": "anastasio.gomez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "002",
@@ -78,7 +78,7 @@
             "codigo_postal": "46001",
             "provincia": "Valencia"
           },
-          "email": "teodosia.martinez@example.com"
+          "email": "teodosia.martinez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "003",
@@ -111,7 +111,7 @@
             "codigo_postal": "41001",
             "provincia": "Sevilla"
           },
-          "email": "leocadia.ruiz@example.com"
+          "email": "leocadia.ruiz@gmail.com"
         },
         "pedido": {
           "numero_pedido": "004",
@@ -144,7 +144,7 @@
             "codigo_postal": "50001",
             "provincia": "Zaragoza"
           },
-          "email": "bonifacio.sanchez@example.com"
+          "email": "bonifacio.sanchez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "005",
@@ -181,7 +181,7 @@
             "codigo_postal": "28001",
             "provincia": "Madrid"
           },
-          "email": "fernando.garcia@example.com"
+          "email": "fernando.garcia@gmail.com"
         },
         "pedido": {
           "numero_pedido": "036",
@@ -214,7 +214,7 @@
             "codigo_postal": "46001",
             "provincia": "Valencia"
           },
-          "email": "margarita.lopez@example.com"
+          "email": "margarita.lopez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "037",
@@ -247,7 +247,7 @@
             "codigo_postal": "14001",
             "provincia": "Córdoba"
           },
-          "email": "bernardo.morales@example.com"
+          "email": "bernardo.morales@gmail.com"
         },
         "pedido": {
           "numero_pedido": "038",
@@ -280,7 +280,7 @@
             "codigo_postal": "18001",
             "provincia": "Granada"
           },
-          "email": "leonor.gomez@example.com"
+          "email": "leonor.gomez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "039",
@@ -313,7 +313,7 @@
             "codigo_postal": "45001",
             "provincia": "Toledo"
           },
-          "email": "carlos.sanchez@example.com"
+          "email": "carlos.sanchez@gmail.com"
         },
         "pedido": {
           "numero_pedido": "040",
