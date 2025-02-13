@@ -1,0 +1,144 @@
+/* ----------------------------------------
+   Variables y Reset
+---------------------------------------- */
+:root {
+  --primary-color: #88d8b0; /* Verde pastel principal */
+  --secondary-color: #c1f0db; /* Verde pastel claro */
+  --accent-color: #ffab91; /* Acento suave (opcional) */
+  --bg-color: #e8f5e9; /* Fondo en tono muy suave de verde */
+  --text-color: #333;
+  --table-bg: #ffffff;
+  --table-row-hover: #f9f9f9;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente personalizada */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ----------------------------------------
+   Encabezados y Contenedores
+---------------------------------------- */
+h1 {
+  color: black !important;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: fadeInUp 0.5s ease both;
+}
+
+/* ----------------------------------------
+   Tablas
+---------------------------------------- */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: var(--table-bg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Animación de aparición para cada fila */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+table tbody tr {
+  animation: fadeInUp 0.5s ease-in-out both;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table tbody tr:hover {
+  background-color: var(--table-row-hover);
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ----------------------------------------
+   Factura
+---------------------------------------- */
+#invoice {
+  width: 90%;
+  margin: 30px auto;
+  background: var(--table-bg);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.6s ease both;
+}
+
+#invoice h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+#invoice p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* ----------------------------------------
+   Enlaces y Botones
+---------------------------------------- */
+a,
+button {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+a:hover,
+button:hover {
+  color: var(--accent-color);
+}
+
+/* ----------------------------------------
+   Diseño Responsive
+---------------------------------------- */
+@media (max-width: 768px) {
+  th,
+  td {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+}

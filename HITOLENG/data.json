@@ -1,0 +1,1342 @@
+{
+  "2023": {
+    "Q1": [
+      {
+        "orderNumber": "2023Q1-001",
+        "purchaseDate": "2023-01-05",
+        "deliveryDate": "2023-01-10",
+        "total": 95.00,
+        "client": {
+          "name": "Alejandro",
+          "surname": "Ramírez",
+          "phone": "600100101",
+          "address": {
+            "street": "Calle Sol 123",
+            "city": "Madrid",
+            "postalCode": "28001",
+            "province": "Madrid"
+          },
+          "email": "alejandro.ramirez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD101",
+            "price": 40.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI102",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q1-002",
+        "purchaseDate": "2023-01-12",
+        "deliveryDate": "2023-01-17",
+        "total": 80.00,
+        "client": {
+          "name": "Beatriz",
+          "surname": "Muñoz",
+          "phone": "600200202",
+          "address": {
+            "street": "Avenida Luna 456",
+            "city": "Barcelona",
+            "postalCode": "08002",
+            "province": "Barcelona"
+          },
+          "email": "beatriz.munoz@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM103",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR104",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q1-003",
+        "purchaseDate": "2023-01-20",
+        "deliveryDate": "2023-01-25",
+        "total": 65.00,
+        "client": {
+          "name": "Carlos",
+          "surname": "Estrada",
+          "phone": "600300303",
+          "address": {
+            "street": "Plaza Mayor 789",
+            "city": "Sevilla",
+            "postalCode": "41002",
+            "province": "Sevilla"
+          },
+          "email": "carlos.estrada@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI105",
+            "price": 15.00,
+            "units": 2
+          },
+          {
+            "name": "Alimento para gato",
+            "reference": "AG106",
+            "price": 35.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q1-004",
+        "purchaseDate": "2023-01-28",
+        "deliveryDate": "2023-02-02",
+        "total": 65.00,
+        "client": {
+          "name": "Daniela",
+          "surname": "Jiménez",
+          "phone": "600400404",
+          "address": {
+            "street": "Calle Prado 101",
+            "city": "Valencia",
+            "postalCode": "46002",
+            "province": "Valencia"
+          },
+          "email": "daniela.jimenez@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA107",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI108",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q1-005",
+        "purchaseDate": "2023-02-03",
+        "deliveryDate": "2023-02-08",
+        "total": 80.00,
+        "client": {
+          "name": "Elena",
+          "surname": "Rodríguez",
+          "phone": "600500505",
+          "address": {
+            "street": "Avenida del Mar 202",
+            "city": "Bilbao",
+            "postalCode": "48003",
+            "province": "Vizcaya"
+          },
+          "email": "elena.rodriguez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM109",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR110",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      }
+    ],
+    "Q2": [
+      {
+        "orderNumber": "2023Q2-001",
+        "purchaseDate": "2023-04-02",
+        "deliveryDate": "2023-04-07",
+        "total": 80.00,
+        "client": {
+          "name": "Fernando",
+          "surname": "Morales",
+          "phone": "600600606",
+          "address": {
+            "street": "Calle Independencia 55",
+            "city": "Madrid",
+            "postalCode": "28003",
+            "province": "Madrid"
+          },
+          "email": "fernando.morales@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG111",
+            "price": 35.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete para gato",
+            "reference": "JG112",
+            "price": 10.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q2-002",
+        "purchaseDate": "2023-04-10",
+        "deliveryDate": "2023-04-15",
+        "total": 105.00,
+        "client": {
+          "name": "Gabriela",
+          "surname": "Torres",
+          "phone": "600700707",
+          "address": {
+            "street": "Avenida Libertad 33",
+            "city": "Sevilla",
+            "postalCode": "41003",
+            "province": "Sevilla"
+          },
+          "email": "gabriela.torres@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA113",
+            "price": 25.00,
+            "units": 1
+          },
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO114",
+            "price": 80.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q2-003",
+        "purchaseDate": "2023-04-18",
+        "deliveryDate": "2023-04-23",
+        "total": 70.00,
+        "client": {
+          "name": "Hugo",
+          "surname": "Pérez",
+          "phone": "600800808",
+          "address": {
+            "street": "Calle Real 89",
+            "city": "Barcelona",
+            "postalCode": "08003",
+            "province": "Barcelona"
+          },
+          "email": "hugo.perez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD115",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI116",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q2-004",
+        "purchaseDate": "2023-04-25",
+        "deliveryDate": "2023-04-30",
+        "total": 100.00,
+        "client": {
+          "name": "Isabel",
+          "surname": "Vargas",
+          "phone": "600900909",
+          "address": {
+            "street": "Plaza Sol 12",
+            "city": "Valencia",
+            "postalCode": "46003",
+            "province": "Valencia"
+          },
+          "email": "isabel.vargas@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Collar reflectante",
+            "reference": "CR117",
+            "price": 20.00,
+            "units": 2
+          },
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM118",
+            "price": 60.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q2-005",
+        "purchaseDate": "2023-05-02",
+        "deliveryDate": "2023-05-07",
+        "total": 95.00,
+        "client": {
+          "name": "Javier",
+          "surname": "Sanz",
+          "phone": "600101010",
+          "address": {
+            "street": "Avenida de la Paz 77",
+            "city": "Bilbao",
+            "postalCode": "48004",
+            "province": "Vizcaya"
+          },
+          "email": "javier.sanz@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD119",
+            "price": 40.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI120",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      }
+    ],
+    "Q3": [
+      {
+        "orderNumber": "2023Q3-001",
+        "purchaseDate": "2023-07-03",
+        "deliveryDate": "2023-07-08",
+        "total": 80.00,
+        "client": {
+          "name": "Karina",
+          "surname": "López",
+          "phone": "600111111",
+          "address": {
+            "street": "Calle Nueva 34",
+            "city": "Madrid",
+            "postalCode": "28004",
+            "province": "Madrid"
+          },
+          "email": "karina.lopez@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM121",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR122",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q3-002",
+        "purchaseDate": "2023-07-10",
+        "deliveryDate": "2023-07-15",
+        "total": 65.00,
+        "client": {
+          "name": "Luis",
+          "surname": "González",
+          "phone": "600121212",
+          "address": {
+            "street": "Avenida Central 56",
+            "city": "Sevilla",
+            "postalCode": "41004",
+            "province": "Sevilla"
+          },
+          "email": "luis.gonzalez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA123",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI124",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q3-003",
+        "purchaseDate": "2023-07-18",
+        "deliveryDate": "2023-07-23",
+        "total": 80.00,
+        "client": {
+          "name": "Marcos",
+          "surname": "Herrera",
+          "phone": "600131313",
+          "address": {
+            "street": "Plaza Mayor 88",
+            "city": "Valencia",
+            "postalCode": "46004",
+            "province": "Valencia"
+          },
+          "email": "marcos.herrera@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG125",
+            "price": 35.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete para gato",
+            "reference": "JG126",
+            "price": 10.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q3-004",
+        "purchaseDate": "2023-07-25",
+        "deliveryDate": "2023-07-30",
+        "total": 100.00,
+        "client": {
+          "name": "Natalia",
+          "surname": "Castillo",
+          "phone": "600141414",
+          "address": {
+            "street": "Calle Sol 90",
+            "city": "Bilbao",
+            "postalCode": "48005",
+            "province": "Vizcaya"
+          },
+          "email": "natalia.castillo@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO127",
+            "price": 80.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR128",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q3-005",
+        "purchaseDate": "2023-08-01",
+        "deliveryDate": "2023-08-06",
+        "total": 70.00,
+        "client": {
+          "name": "Oscar",
+          "surname": "Domínguez",
+          "phone": "600151515",
+          "address": {
+            "street": "Avenida Libertad 10",
+            "city": "Madrid",
+            "postalCode": "28005",
+            "province": "Madrid"
+          },
+          "email": "oscar.dominguez@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD129",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI130",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": false
+      }
+    ],
+    "Q4": [
+      {
+        "orderNumber": "2023Q4-001",
+        "purchaseDate": "2023-10-03",
+        "deliveryDate": "2023-10-08",
+        "total": 75.00,
+        "client": {
+          "name": "Patricia",
+          "surname": "Blanco",
+          "phone": "600161616",
+          "address": {
+            "street": "Calle Nueva 12",
+            "city": "Sevilla",
+            "postalCode": "41005",
+            "province": "Sevilla"
+          },
+          "email": "patricia.blanco@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM131",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI132",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q4-002",
+        "purchaseDate": "2023-10-10",
+        "deliveryDate": "2023-10-15",
+        "total": 75.00,
+        "client": {
+          "name": "Quintín",
+          "surname": "Delgado",
+          "phone": "600171717",
+          "address": {
+            "street": "Avenida Real 77",
+            "city": "Valencia",
+            "postalCode": "46005",
+            "province": "Valencia"
+          },
+          "email": "quintin.delgado@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG133",
+            "price": 35.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR134",
+            "price": 20.00,
+            "units": 2
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2023Q4-003",
+        "purchaseDate": "2023-10-18",
+        "deliveryDate": "2023-10-23",
+        "total": 65.00,
+        "client": {
+          "name": "Raúl",
+          "surname": "Navarro",
+          "phone": "600181818",
+          "address": {
+            "street": "Plaza del Sol 23",
+            "city": "Bilbao",
+            "postalCode": "48006",
+            "province": "Vizcaya"
+          },
+          "email": "raul.navarro@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA135",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI136",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q4-004",
+        "purchaseDate": "2023-10-25",
+        "deliveryDate": "2023-10-30",
+        "total": 100.00,
+        "client": {
+          "name": "Sofía",
+          "surname": "Cruz",
+          "phone": "600191919",
+          "address": {
+            "street": "Calle Mayor 45",
+            "city": "Madrid",
+            "postalCode": "28006",
+            "province": "Madrid"
+          },
+          "email": "sofia.cruz@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO137",
+            "price": 80.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR138",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2023Q4-005",
+        "purchaseDate": "2023-11-02",
+        "deliveryDate": "2023-11-07",
+        "total": 95.00,
+        "client": {
+          "name": "Tomás",
+          "surname": "Aguirre",
+          "phone": "600202020",
+          "address": {
+            "street": "Avenida del Mar 33",
+            "city": "Sevilla",
+            "postalCode": "41006",
+            "province": "Sevilla"
+          },
+          "email": "tomas.aguirre@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD139",
+            "price": 40.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI140",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      }
+    ]
+  },
+  "2024": {
+    "Q1": [
+      {
+        "orderNumber": "2024Q1-001",
+        "purchaseDate": "2024-01-06",
+        "deliveryDate": "2024-01-11",
+        "total": 90.00,
+        "client": {
+          "name": "Ursula",
+          "surname": "Molina",
+          "phone": "600212121",
+          "address": {
+            "street": "Calle Primavera 11",
+            "city": "Valencia",
+            "postalCode": "46007",
+            "province": "Valencia"
+          },
+          "email": "ursula.molina@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM141",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI142",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q1-002",
+        "purchaseDate": "2024-01-13",
+        "deliveryDate": "2024-01-18",
+        "total": 55.00,
+        "client": {
+          "name": "Victor",
+          "surname": "Figueroa",
+          "phone": "600222222",
+          "address": {
+            "street": "Avenida del Sol 77",
+            "city": "Bilbao",
+            "postalCode": "48007",
+            "province": "Vizcaya"
+          },
+          "email": "victor.figueroa@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG143",
+            "price": 35.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR144",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q1-003",
+        "purchaseDate": "2024-01-20",
+        "deliveryDate": "2024-01-25",
+        "total": 65.00,
+        "client": {
+          "name": "Wendy",
+          "surname": "Rojas",
+          "phone": "600232323",
+          "address": {
+            "street": "Calle Luna 88",
+            "city": "Madrid",
+            "postalCode": "28007",
+            "province": "Madrid"
+          },
+          "email": "wendy.rojas@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA145",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI146",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q1-004",
+        "purchaseDate": "2024-01-27",
+        "deliveryDate": "2024-02-01",
+        "total": 100.00,
+        "client": {
+          "name": "Xavier",
+          "surname": "Cordero",
+          "phone": "600242424",
+          "address": {
+            "street": "Avenida Libertad 99",
+            "city": "Sevilla",
+            "postalCode": "41007",
+            "province": "Sevilla"
+          },
+          "email": "xavier.cordero@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO147",
+            "price": 80.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR148",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q1-005",
+        "purchaseDate": "2024-02-03",
+        "deliveryDate": "2024-02-08",
+        "total": 70.00,
+        "client": {
+          "name": "Yolanda",
+          "surname": "Pineda",
+          "phone": "600252525",
+          "address": {
+            "street": "Calle Real 101",
+            "city": "Bilbao",
+            "postalCode": "48008",
+            "province": "Vizcaya"
+          },
+          "email": "yolanda.pineda@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD149",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI150",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": false
+      }
+    ],
+    "Q2": [
+      {
+        "orderNumber": "2024Q2-001",
+        "purchaseDate": "2024-04-04",
+        "deliveryDate": "2024-04-09",
+        "total": 80.00,
+        "client": {
+          "name": "Zulema",
+          "surname": "Castillo",
+          "phone": "600262626",
+          "address": {
+            "street": "Avenida Central 123",
+            "city": "Madrid",
+            "postalCode": "28008",
+            "province": "Madrid"
+          },
+          "email": "zulema.castillo@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG151",
+            "price": 35.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete para gato",
+            "reference": "JG152",
+            "price": 10.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q2-002",
+        "purchaseDate": "2024-04-12",
+        "deliveryDate": "2024-04-17",
+        "total": 105.00,
+        "client": {
+          "name": "Andrés",
+          "surname": "Romero",
+          "phone": "600272727",
+          "address": {
+            "street": "Calle Independencia 45",
+            "city": "Sevilla",
+            "postalCode": "41008",
+            "province": "Sevilla"
+          },
+          "email": "andres.romero@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA153",
+            "price": 25.00,
+            "units": 1
+          },
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO154",
+            "price": 80.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q2-003",
+        "purchaseDate": "2024-04-20",
+        "deliveryDate": "2024-04-25",
+        "total": 70.00,
+        "client": {
+          "name": "Bruno",
+          "surname": "Sanchez",
+          "phone": "600282828",
+          "address": {
+            "street": "Avenida del Sol 66",
+            "city": "Bilbao",
+            "postalCode": "48009",
+            "province": "Vizcaya"
+          },
+          "email": "bruno.sanchez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD155",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI156",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q2-004",
+        "purchaseDate": "2024-04-28",
+        "deliveryDate": "2024-05-03",
+        "total": 100.00,
+        "client": {
+          "name": "Carmen",
+          "surname": "Fuentes",
+          "phone": "600292929",
+          "address": {
+            "street": "Plaza Mayor 77",
+            "city": "Madrid",
+            "postalCode": "28009",
+            "province": "Madrid"
+          },
+          "email": "carmen.fuentes@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Collar reflectante",
+            "reference": "CR157",
+            "price": 20.00,
+            "units": 2
+          },
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM158",
+            "price": 60.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q2-005",
+        "purchaseDate": "2024-05-06",
+        "deliveryDate": "2024-05-11",
+        "total": 80.00,
+        "client": {
+          "name": "Diego",
+          "surname": "Marquez",
+          "phone": "600303030",
+          "address": {
+            "street": "Avenida Libertad 88",
+            "city": "Sevilla",
+            "postalCode": "41009",
+            "province": "Sevilla"
+          },
+          "email": "diego.marquez@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG159",
+            "price": 35.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete para gato",
+            "reference": "JG160",
+            "price": 10.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      }
+    ],
+    "Q3": [
+      {
+        "orderNumber": "2024Q3-001",
+        "purchaseDate": "2024-07-04",
+        "deliveryDate": "2024-07-09",
+        "total": 80.00,
+        "client": {
+          "name": "Esteban",
+          "surname": "Vega",
+          "phone": "600313131",
+          "address": {
+            "street": "Calle Nueva 77",
+            "city": "Madrid",
+            "postalCode": "28010",
+            "province": "Madrid"
+          },
+          "email": "esteban.vega@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM161",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR162",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q3-002",
+        "purchaseDate": "2024-07-12",
+        "deliveryDate": "2024-07-17",
+        "total": 65.00,
+        "client": {
+          "name": "Florencia",
+          "surname": "Ríos",
+          "phone": "600323232",
+          "address": {
+            "street": "Avenida del Mar 55",
+            "city": "Sevilla",
+            "postalCode": "41010",
+            "province": "Sevilla"
+          },
+          "email": "florencia.rios@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA163",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI164",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q3-003",
+        "purchaseDate": "2024-07-20",
+        "deliveryDate": "2024-07-25",
+        "total": 70.00,
+        "client": {
+          "name": "Guillermo",
+          "surname": "Orozco",
+          "phone": "600333333",
+          "address": {
+            "street": "Plaza Mayor 99",
+            "city": "Bilbao",
+            "postalCode": "48010",
+            "province": "Vizcaya"
+          },
+          "email": "guillermo.orozco@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD165",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI166",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q3-004",
+        "purchaseDate": "2024-07-28",
+        "deliveryDate": "2024-08-02",
+        "total": 100.00,
+        "client": {
+          "name": "Helena",
+          "surname": "Solis",
+          "phone": "600343434",
+          "address": {
+            "street": "Calle Real 34",
+            "city": "Madrid",
+            "postalCode": "28011",
+            "province": "Madrid"
+          },
+          "email": "helena.solis@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO167",
+            "price": 80.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR168",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q3-005",
+        "purchaseDate": "2024-08-04",
+        "deliveryDate": "2024-08-09",
+        "total": 55.00,
+        "client": {
+          "name": "Ignacio",
+          "surname": "Bravo",
+          "phone": "600353535",
+          "address": {
+            "street": "Avenida Libertad 101",
+            "city": "Sevilla",
+            "postalCode": "41011",
+            "province": "Sevilla"
+          },
+          "email": "ignacio.bravo@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para gato",
+            "reference": "AG169",
+            "price": 35.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete para gato",
+            "reference": "JG170",
+            "price": 10.00,
+            "units": 2
+          }
+        ],
+        "recurrent": false
+      }
+    ],
+    "Q4": [
+      {
+        "orderNumber": "2024Q4-001",
+        "purchaseDate": "2024-10-04",
+        "deliveryDate": "2024-10-09",
+        "total": 75.00,
+        "client": {
+          "name": "Julieta",
+          "surname": "Serrano",
+          "phone": "600363636",
+          "address": {
+            "street": "Calle Encina 55",
+            "city": "Madrid",
+            "postalCode": "28012",
+            "province": "Madrid"
+          },
+          "email": "julieta.serrano@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama para mascotas",
+            "reference": "CM171",
+            "price": 60.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI172",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q4-002",
+        "purchaseDate": "2024-10-12",
+        "deliveryDate": "2024-10-17",
+        "total": 95.00,
+        "client": {
+          "name": "Kevin",
+          "surname": "Peña",
+          "phone": "600373737",
+          "address": {
+            "street": "Avenida Real 88",
+            "city": "Sevilla",
+            "postalCode": "41012",
+            "province": "Sevilla"
+          },
+          "email": "kevin.pena@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD173",
+            "price": 40.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI174",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": true
+      },
+      {
+        "orderNumber": "2024Q4-003",
+        "purchaseDate": "2024-10-20",
+        "deliveryDate": "2024-10-25",
+        "total": 65.00,
+        "client": {
+          "name": "Lourdes",
+          "surname": "Cabrera",
+          "phone": "600383838",
+          "address": {
+            "street": "Plaza del Sol 67",
+            "city": "Bilbao",
+            "postalCode": "48011",
+            "province": "Vizcaya"
+          },
+          "email": "lourdes.cabrera@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Arnés ajustable",
+            "reference": "AA175",
+            "price": 25.00,
+            "units": 2
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI176",
+            "price": 15.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q4-004",
+        "purchaseDate": "2024-10-28",
+        "deliveryDate": "2024-11-02",
+        "total": 100.00,
+        "client": {
+          "name": "Manuel",
+          "surname": "Gil",
+          "phone": "600393939",
+          "address": {
+            "street": "Calle Mayor 77",
+            "city": "Madrid",
+            "postalCode": "28013",
+            "province": "Madrid"
+          },
+          "email": "manuel.gil@hotmail.com"
+        },
+        "products": [
+          {
+            "name": "Cama ortopédica",
+            "reference": "CO177",
+            "price": 80.00,
+            "units": 1
+          },
+          {
+            "name": "Collar reflectante",
+            "reference": "CR178",
+            "price": 20.00,
+            "units": 1
+          }
+        ],
+        "recurrent": false
+      },
+      {
+        "orderNumber": "2024Q4-005",
+        "purchaseDate": "2024-11-05",
+        "deliveryDate": "2024-11-10",
+        "total": 70.00,
+        "client": {
+          "name": "Noelia",
+          "surname": "Delgado",
+          "phone": "600404040",
+          "address": {
+            "street": "Avenida del Mar 45",
+            "city": "Sevilla",
+            "postalCode": "41013",
+            "province": "Sevilla"
+          },
+          "email": "noelia.delgado@gmail.com"
+        },
+        "products": [
+          {
+            "name": "Alimento para perro",
+            "reference": "APD179",
+            "price": 40.00,
+            "units": 1
+          },
+          {
+            "name": "Juguete interactivo",
+            "reference": "JI180",
+            "price": 15.00,
+            "units": 2
+          }
+        ],
+        "recurrent": true
+      }
+    ]
+  }
+}
