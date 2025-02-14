@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finlandia, Åland</title>
+  <!-- Incluimos Bootstrap para el grid y responsividad -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Finlandia, Åland</h1>
+  </header>
+
+  <div class="contenedor container">
+    <h2 class="titulo">Bienvenido a las Islas Åland</h2>
+    <p class="descripcion">
+      Las Islas Åland son un archipiélago autónomo y desmilitarizado situado en el mar Báltico. Conocidas por su naturaleza impresionante y su rica cultura, son un destino ideal para los amantes de la tranquilidad y la belleza natural.
+    </p>
+
+    <!-- Contenedor para clima y mapa usando Grid de Bootstrap -->
+    <!-- Se usa flex-nowrap para que las columnas no se apilen -->
+    <div class="datos-mapa row flex-nowrap">
+      <!-- Clima: forzamos el uso de 6 columnas de 12 (50% del ancho) en cualquier tamaño -->
+      <div class="col-6">
+        <div class="datos">
+          <h3>Clima en Åland</h3>
+          <p id="temperature" class="negrita">Cargando temperatura...</p>
+          <p id="weather-description">Cargando descripción del clima...</p>
+          <p id="humidity">Cargando humedad...</p>
+          <p id="wind-speed">Cargando velocidad del viento...</p>
+        </div>
+      </div>
+
+      <!-- Mapa: igualmente se asigna 6 columnas -->
+      <div class="col-6">
+        <div class="mapa">
+          <h3>Ubicación de Åland</h3>
+          <div class="iframe-contenedor">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d542024.803535197!2d20.630537806434692!3d60.11398573747444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2zw4VsYW5k!5e1!3m2!1ses!2ses!4v1738324976344!5m2!1ses!2ses" 
+              allowfullscreen 
+              loading="lazy" 
+              class="w-100" 
+              style="height: 300px; border: none;">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enlaces a otras páginas -->
+    <div class="enlaces">
+      <a href="imagenes.html" class="btn btn-primary">Ver Imágenes</a>
+      <a href="reseñas.html" class="btn btn-primary">Ver Reseñas</a>
+    </div>
+  </div>
+
+  <!-- Script de Bootstrap (para funcionalidades que lo requieran) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const apiKey = '1de41b11d3c63bb1db9f0cda70a3d6d6';
+    const city = 'Helsinki'; 
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},FI&appid=${apiKey}&units=metric&lang=es`;
+
+    fetch(apiUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Error: ${response.status} - ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        const temperature = data.main.temp;
+        const weatherDescription = data.weather[0].description;
+        const humidity = data.main.humidity;
+        const windSpeed = data.wind.speed;
+
+        document.getElementById('temperature').textContent = `Temperatura: ${temperature} °C`;
+        document.getElementById('weather-description').textContent = `Clima: ${weatherDescription}`;
+        document.getElementById('humidity').textContent = `Humedad: ${humidity}%`;
+        document.getElementById('wind-speed').textContent = `Viento: ${windSpeed} m/s`;
+      })
+      .catch(error => {
+        console.error('Error al obtener los datos del clima:', error);
+        document.getElementById('temperature').textContent = 'Error al cargar los datos';
+      });
+  </script>
+</body>
+</html>
